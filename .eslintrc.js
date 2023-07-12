@@ -9,10 +9,6 @@ module.exports = {
       files: ['*.graphql'],
       parser: '@graphql-eslint/eslint-plugin',
       plugins: ['@graphql-eslint'],
-      extends: 'plugin:@graphql-eslint/schema-recommended',
-    },
-    {
-      files: ['*.graphql'],
       extends: 'plugin:@graphql-eslint/schema-all',
       parserOptions: {
         schema: [

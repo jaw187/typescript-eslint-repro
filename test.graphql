@@ -1,5 +1,7 @@
-Query {
-  someQuery: {
-    someField: string
-  }
+type SomeResponse {
+  someFiled: String
+}
+
+type Query {
+  someQuery: SomeResponse
 }
